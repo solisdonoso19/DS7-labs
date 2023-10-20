@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inclusive Sans", sans-serif;
+  color: aliceblue;
+}
+
+.container {
+  width: 100vw - 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  background-color: rgb(47, 47, 47);
+}
+
+.header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  color: black;
+  width: 100px;
+  height: 30px;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table-container > p:first-child {
+  margin-bottom: 20px;
+}
+table {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+#n {
+  color: black;
+  width: 100px;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+td {
+  border: 1px solid aliceblue;
+}
+
+p,
+td {
+  font-size: 25px;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  height: 30px;
+}
+
+.label {
+  margin-bottom: 20px;
+}
